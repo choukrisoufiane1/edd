@@ -1,22 +1,50 @@
-[debug] [2025-05-05T01:58:49.968Z] ----------------------------------------------------------------------
-[debug] [2025-05-05T01:58:49.978Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create
-[debug] [2025-05-05T01:58:49.979Z] CLI Version:   14.2.2
-[debug] [2025-05-05T01:58:49.980Z] Platform:      win32
-[debug] [2025-05-05T01:58:49.981Z] Node Version:  v23.11.0
-[debug] [2025-05-05T01:58:49.983Z] Time:          Mon May 05 2025 02:58:49 GMT+0100 (UTC+01:00)
-[debug] [2025-05-05T01:58:49.983Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T03:03:56.981Z] ----------------------------------------------------------------------
+[debug] [2025-05-05T03:03:56.995Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-05T03:03:56.996Z] CLI Version:   14.2.2
+[debug] [2025-05-05T03:03:56.997Z] Platform:      win32
+[debug] [2025-05-05T03:03:56.997Z] Node Version:  v23.11.0
+[debug] [2025-05-05T03:03:56.998Z] Time:          Mon May 05 2025 04:03:56 GMT+0100 (UTC+01:00)
+[debug] [2025-05-05T03:03:56.998Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-05-05T01:58:49.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-05-05T01:58:49.999Z] > authorizing via signed-in user (choukrisoufiane21@gmail.com)
-[debug] [2025-05-05T01:59:42.893Z] Checked if tokens are valid: true, expires at: 1746413525362
-[debug] [2025-05-05T01:59:42.893Z] Checked if tokens are valid: true, expires at: 1746413525362
-[debug] [2025-05-05T01:59:42.896Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2025-05-05T01:59:42.896Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"edd-project","name":"eddd"}
-[debug] [2025-05-05T01:59:43.803Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
-[debug] [2025-05-05T01:59:43.803Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
-[debug] [2025-05-05T01:59:43.942Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 409, Requested entity already exists
-    at responseToError (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
-    at RetryOperation._fn (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+[debug] [2025-05-05T03:03:57.014Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-05T03:03:57.015Z] > authorizing via signed-in user (choukrisoufiane21@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hp\Desktop\edd
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-05-05T03:04:42.167Z] Checked if tokens are valid: true, expires at: 1746417812730
+[debug] [2025-05-05T03:04:42.167Z] Checked if tokens are valid: true, expires at: 1746417812730
+[debug] [2025-05-05T03:04:42.170Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-05-05T03:04:42.170Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"eddum5","name":"edd5"}
+[debug] [2025-05-05T03:04:43.335Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-05-05T03:04:43.336Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.8950742358864444033"}
+[debug] [2025-05-05T03:04:43.339Z] Checked if tokens are valid: true, expires at: 1746417812730
+[debug] [2025-05-05T03:04:43.339Z] Checked if tokens are valid: true, expires at: 1746417812730
+[debug] [2025-05-05T03:04:43.340Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8950742358864444033 [none]
+[debug] [2025-05-05T03:04:43.984Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8950742358864444033 200
+[debug] [2025-05-05T03:04:43.984Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8950742358864444033 {"name":"operations/create_project.global.8950742358864444033","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2025-05-05T03:04:44.148Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:24:19)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createCloudProject (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:213:29)
+    at async createFirebaseProjectAndLog (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:71:9)
+    at async promptAndCreateNewProject (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:89:27)
+    at async init (C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
 [error] 
-[error] Error: Failed to create project because there is already a project with ID edd-project. Please try again with a unique project ID.
+[error] Error: Failed to create project. See firebase-debug.log for more info.
